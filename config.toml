@@ -1,0 +1,236 @@
+# Page settings
+
+baseURL = "https://ezereyna.dev/"
+languageCode = "en"
+title = "Ezequiel Reyna"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Ezequiel Reyna"
+    description = ""
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Ezequiel Reyna"
+        tagline = "Senior Site Reliability Engineer"
+        avatar = "eze.jpg"
+
+    [params.contact]
+        enable = true
+        location = "Buenos Aires, Argentina"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:ezequiel.reyna@gmail.com"
+        text = "ezequiel.reyna@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://ezereyna.dev"
+        [[params.contact.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/ezequiel-reyna"
+        text = "Ezequiel Reyna"
+        [[params.contact.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/eze8789"
+        text = "eze8789"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "IaC/Terraform/Pulumi"
+        [[params.skills.list.items]]
+        details = "Go/Python/Bash"
+        [[params.skills.list.items]]
+        details = "AWS/GCP"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/Redis/Mongo"
+        [[params.skills.list.items]]
+        details = "Prometheus/NewRelic/Datadog"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Bridge Builder"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BS in Computer Science"
+        university = ""
+        dates = "2021 - In Progress"
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Test"
+        body = "Test"
+        date = "Test"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+#         level = ""
+        [[params.languages.list]]
+        name = "Spanish"
+#         level = ""
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = ""
+
+    [params.summary]
+        enable = true
+        text = "Summary here."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Site Reliability Engineer"
+        dates = "2020 - Present"
+        company = "Mulesoft a Salesforce Company"
+        details = "Role description goes here."
+
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Senior Site Reliability Engineer"
+        dates = "2019 - 2020"
+        company = "Elementum"
+        details = "Role description goes here."
+
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "2018 - 2019"
+        company = "Endava (at SilverRail)"
+        details = "Role description goes here."
+
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Cloud & Network Engineer"
+        dates = "2015 - 2018"
+        company = "Logicalis"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Cloud Architect"
+        dates = "2017 - 2018"
+        company = "Nubeliu a Logicalis Company"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "IP/MPLS Engineer"
+        dates = "2012 - 2015"
+        company = "Claro Argentina"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Noc Engineer"
+        dates = "2010 - 2012"
+        company = "Claro Argentina"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Technical Support"
+        dates = "2008 - 2010"
+        company = "Telmex"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Title"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects."
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Courses and Certifications"
+        [[params.information.list.items]]
+        details = "2020 · RSU101: Introduction to Redis Data Structures"
+        [[params.information.list.items]]
+        details = "2019 · SumoLogic Search Mastery"
+        [[params.information.list.items]]
+        details = "2019 · SumoLogic Fundamentals"
+        [[params.information.list.items]]
+        details = "2018 · AWS Certified Solutions Architect - Associate"
+
+#        [[params.information.list]]
+#        title = "Interests"
+#        details = ""
+
+
+    [params.social]
+        enable = false
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/ezequiel-reyna"
+        title = "eze8789"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "ezequiel-reyna"
+
+
+
+
+
