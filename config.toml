@@ -117,11 +117,11 @@ theme = "hugo-devresume-theme"
         details = "Role description goes here."
 
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Tasks here."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Tasks here."
         [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "Tasks here."
 
         [[params.experience.list]]
         title = "Senior Site Reliability Engineer"
@@ -130,9 +130,9 @@ theme = "hugo-devresume-theme"
         details = "Role description goes here."
 
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Tasks here."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Tasks here."
 
         [[params.experience.list]]
         title = "DevOps Engineer"
@@ -141,54 +141,54 @@ theme = "hugo-devresume-theme"
         details = "Role description goes here."
 
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Tasks here."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Tasks here."
 
         [[params.experience.list]]
         title = "Cloud & Network Engineer"
         dates = "2015 - 2018"
         company = "Logicalis"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        details = "Role description goes here."
 
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Tasks here."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Tasks here."
 
         [[params.experience.list]]
         title = "Cloud Architect"
         dates = "2017 - 2018"
         company = "Nubeliu a Logicalis Company"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        details = "Role description goes here."
 
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Tasks here."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Tasks here."
 
         [[params.experience.list]]
         title = "IP/MPLS Engineer"
         dates = "2012 - 2015"
         company = "Claro Argentina"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        details = "Role description goes here."
 
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Tasks here."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Tasks here."
 
         [[params.experience.list]]
         title = "Noc Engineer"
         dates = "2010 - 2012"
         company = "Claro Argentina"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        details = "Role description goes here."
 
         [[params.experience.list]]
         title = "Technical Support"
         dates = "2008 - 2010"
         company = "Telmex"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        details = "Role description goes here."
 
     [params.projects]
         enable = false
