@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://ezereyna.com/"
+baseURL = "https://cv.ezereyna.com/"
 languageCode = "en"
 title = "Ezequiel Reyna"
 theme = "hugo-devresume-theme"
