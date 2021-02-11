@@ -22,19 +22,19 @@ theme = "hugo-devresume-theme"
         enable = true
         location = "Buenos Aires, Argentina"
 
-        [[params.contact.list]]
+    [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:ezequiel.reyna@gmail.com"
         text = "ezequiel.reyna@gmail.com"
-        [[params.contact.list]]
+    [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
         text = "https://ezereyna.dev"
-        [[params.contact.list]]
+    [[params.contact.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/ezequiel-reyna"
         text = "Ezequiel Reyna"
-        [[params.contact.list]]
+    [[params.contact.list]]
         icon = "fab fa-github-square"
         url = "//github.com/eze8789"
         text = "eze8789"
@@ -45,19 +45,25 @@ theme = "hugo-devresume-theme"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
+        details = "Kubernetes/Docker/DCOS"
+        [[params.skills.list.items]]
         details = "IaC/Terraform/Pulumi"
         [[params.skills.list.items]]
         details = "Go/Python/Bash"
         [[params.skills.list.items]]
         details = "AWS/GCP"
         [[params.skills.list.items]]
+        details = "Continuous Integration and Continuous Deployment/SDLC"
+        [[params.skills.list.items]]
+        details = "Jenkins/GitLab CI/ Argo CD/GitHub Actions"
+        [[params.skills.list.items]]
         details = "PostgreSQL/Redis/Mongo"
         [[params.skills.list.items]]
         details = "Prometheus/NewRelic/Datadog"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
+        details = "Design and implement Cloud Infrastructure"
         [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Automate and Orchestrate complex distributed systems"
 
         [[params.skills.list]]
         title = "Professional"
@@ -76,8 +82,7 @@ theme = "hugo-devresume-theme"
         [[params.education.list]]
         degree = "BS in Computer Science"
         university = ""
-        dates = "2021 - In Progress"
-
+        dates = "2020 - In Progress"
 
     [params.awards]
         enable = false
@@ -90,12 +95,12 @@ theme = "hugo-devresume-theme"
     [params.languages]
         enable = true
 
-        [[params.languages.list]]
+    [[params.languages.list]]
         name = "English"
-#         level = ""
-        [[params.languages.list]]
+#        level = ""
+    [[params.languages.list]]
         name = "Spanish"
-#         level = ""
+#        level = ""
 
     [params.interests]
         enable = false
@@ -105,7 +110,9 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "Summary here."
+        text = """I'm a Site Reliability, DevOps Engineer with over 12 years of experience building highly reliable and production ready IT, Cloud and Network Infrastructure.
+            Over the years I worked in multiple projects and adapted to different roles requiring different skillsert but for the past 4 years I specialized on DevOps, Site Reliability, Kubernetes, CI/CD, SDLC and Infrastructure development and automation.
+            \nI'm very passionate about Linux/Unix, Open Source, Distributed Systems and Networking."""
 
     [params.experience]
         enable = true
@@ -114,81 +121,84 @@ theme = "hugo-devresume-theme"
         title = "Senior Site Reliability Engineer"
         dates = "2020 - Present"
         company = "Mulesoft a Salesforce Company"
-        details = "Role description goes here."
+        details = ""
 
-        [[params.experience.list.items]]
-        details = "Tasks here."
-        [[params.experience.list.items]]
-        details = "Tasks here."
-        [[params.experience.list.items]]
-        details = "Tasks here."
+#        [[params.experience.list.items]]
+#        details = "Tasks here."
+#        [[params.experience.list.items]]
+#        details = "Tasks here."
+#        [[params.experience.list.items]]
+#        details = "Tasks here."
 
         [[params.experience.list]]
         title = "Senior Site Reliability Engineer"
         dates = "2019 - 2020"
         company = "Elementum"
-        details = "Role description goes here."
+        details = ""
 
-        [[params.experience.list.items]]
-        details = "Tasks here."
-        [[params.experience.list.items]]
-        details = "Tasks here."
+#        [[params.experience.list.items]]
+#        details = "Tasks here."
+#        [[params.experience.list.items]]
+#        details = "Tasks here."
 
         [[params.experience.list]]
         title = "DevOps Engineer"
         dates = "2018 - 2019"
         company = "Endava (at SilverRail)"
-        details = "Role description goes here."
-
-        [[params.experience.list.items]]
-        details = "Tasks here."
-        [[params.experience.list.items]]
-        details = "Tasks here."
+        details = """I worked as a DevOps Engineer for SilverRail Tech, with the objective of modernize the infrastructure, automate SDLC, and improve reliability and stability.
+            \nThe project included development and automation of all the AWS stack with Terraform, orchestrate the Development, Testing and Production infrastructure in a repetitively way, improving and making easier the infrastructure changes and provisioning.
+            \nUnify of Configuration Management solution from Ansible and Bash scripts to SaltStack
+            \nUpdate the software release process with a new pipeline developed under Gitlab CI orchestrating the deployment of different distributed services.
+            \nImprove Continuous Integration process, ensuring a better development experience.
+            \nInitial phase of the migration to Kubernetes (EKS): orchestrate clusters creation and maintenance process
+            \nMonitoring solution based on NewRelic for the new stack
+            \nCreate base Docker image for different technologies (Java/Node/Python)
+            \nDevelopment of base Helm Charts
+        """
 
         [[params.experience.list]]
         title = "Cloud & Network Engineer"
         dates = "2015 - 2018"
         company = "Logicalis"
-        details = "Role description goes here."
+        details = """Design, implementation and maintenance of IaaS, PaaS and SaaS solutions over OpenStack and public cloud providers. Orchestrating the infrastructure with Terraform and development of Ansible roles for configuration management.
+            \nDesign and implementation of SDN and NFV solutions. Integration of Nuage with OpenStack and Cisco VTS or Cisco ACI with OpenStack (Red Hat or Cisco VIM).
+            \nDevelopment of containers (docker) and kubernetes manifests, for deploy network components and applications
+            \nDesign and implementation of Service Providers networks and Data Center environments.
+            \nCisco ACI deployments on large scale ISPs.
+            \nNetwork automation with Cisco NSO and Python.
+            \nInstallation and configuration of Cisco devices in all of their Series, including ASR 9000, Cisco CRS and Cisco Nexus, Juniper and Huawei.
+            \nInteraction and coordination with customers and suppliers.
+            \nElaborate documentation (High and Low Level Design), runbooks, infrastructure diagrams."""
 
-        [[params.experience.list.items]]
-        details = "Tasks here."
-        [[params.experience.list.items]]
-        details = "Tasks here."
 
         [[params.experience.list]]
         title = "Cloud Architect"
         dates = "2017 - 2018"
         company = "Nubeliu a Logicalis Company"
-        details = "Role description goes here."
+        details = """Delivery and maintenance of private cloud solutions under OpenStack (Red Hat, Canonical or SuSe), including SDN & NFV integrations.
+        \nDelivery of public cloud solutions within AWS using different products of the stack, such as EC2, ELB, Route53, S3 and RDS.
+        \nDesign of infrastructure for microservices and SOA applications."""
 
-        [[params.experience.list.items]]
-        details = "Tasks here."
-        [[params.experience.list.items]]
-        details = "Tasks here."
 
         [[params.experience.list]]
         title = "IP/MPLS Engineer"
         dates = "2012 - 2015"
         company = "Claro Argentina"
-        details = "Role description goes here."
-
-        [[params.experience.list.items]]
-        details = "Tasks here."
-        [[params.experience.list.items]]
-        details = "Tasks here."
+        details = """As a member of the IP/MPLS team I act as highest support level performing analysis and resolution of high impact incidents on Corporate clients.
+            Maintain a highly and reliable Core IP/MPLS and Metro Ethernet network.
+            \nSearch for possibilities of improvement including but not limited to redundancy, last mile technologies, and routing implementations."""
 
         [[params.experience.list]]
         title = "Noc Engineer"
         dates = "2010 - 2012"
         company = "Claro Argentina"
-        details = "Role description goes here."
+        details = ""
 
         [[params.experience.list]]
         title = "Technical Support"
         dates = "2008 - 2010"
         company = "Telmex"
-        details = "Role description goes here."
+        details = ""
 
     [params.projects]
         enable = false
@@ -197,7 +207,6 @@ theme = "hugo-devresume-theme"
         title = "Title"
         meta = "Open Source"
         tagline = "You can use this section for your side projects."
-
 
     [params.information]
         enable = true
@@ -217,20 +226,14 @@ theme = "hugo-devresume-theme"
 #        title = "Interests"
 #        details = ""
 
-
     [params.social]
-        enable = false
+    enable = false
 
-        [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/ezequiel-reyna"
-        title = "eze8789"
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "ezequiel-reyna"
-
-
-
-
-
+    [[params.social.list]]
+    icon = "fab fa-github-square"
+    url = "//github.com/ezequiel-reyna"
+    title = "eze8789"
+    [[params.social.list]]
+    icon = "fab fa-linkedin"
+    url = "//linkedin.com/in/username"
+    title = "ezequiel-reyna"
