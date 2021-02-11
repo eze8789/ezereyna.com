@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://stoic-johnson-087a2f.netlify.app/"
+baseURL = "https://ezereyna.com/"
 languageCode = "en"
 title = "Ezequiel Reyna"
 theme = "hugo-devresume-theme"
@@ -29,7 +29,7 @@ theme = "hugo-devresume-theme"
     [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "https://ezereyna.dev"
+        text = "https://ezereyna.com"
     [[params.contact.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/ezequiel-reyna"
